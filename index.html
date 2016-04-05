@@ -39,8 +39,54 @@
 				<label for="date">Check-in</label>
 				<input type="date" id="date">
 			</div>
+			<div>
+				<label for="country">Your country</label>
+				<select name="country" id="country"> <!--  name attribute is sent to the server -->
+				  <option value="">Please select ...</option>				  	
+				  <optgroup label="Oceania">
+				    <option value="au">Australia</option> <!-- nz may be a flag img  -->
+				    <option value="nz">New Zealand</option>  
+				  </optgroup>
+				  <optgroup label="Other">
+				  	<option value="rp">Philippines</option>				  		
+				  	<option value="us">United States of America</option>
+				  </optgroup>	  		
 
-			<input type="submit">
+				</select>
+			</div>
+
+			<!-- For the gender -->
+			<div>   <!--  name="gender" groups sex to choose only one from  -->
+				<input type="radio" id="male" name="gender">
+				<label for="male">  Male </label>
+			</div>
+			<div>
+				<input type="radio" id="female" name="gender">
+				<label for="female">  Female </label>
+			</div>
+			<div>
+				<input type="radio" id="other" name="gender">
+				<label for="other">  Other </label>
+			</div>
+
+			<div>
+				<input type="checkbox" id="remember" checked>
+				<!-- checked pre-ticks the option  -->
+				<label for="remember"> Remember login </label>
+			</div>
+
+			<div>
+				<label for="post">Blog post </label>
+				<textarea name="" id="post" cols="30" rows="10"></textarea>
+			</div>
+
+			<div>
+				<label for="search">Search </label>
+				<input type="search" id="search">
+			</div>
+
+
+			<input type="submit" value="Register">
 
 		</form>
 	</body>

@@ -2,8 +2,21 @@ body {
 
 	/*background-color: #ff0000; */
 
-	/*This is a comment line in a css file.*/
-
-
-
+}
+form div {
+	margin: 10px;
+}
+label {
+/*	background-color: yellow;*/
+	width: 120px;
+	display: inline-block;
+}
+#post {
+	width: 100px;
+	height: 50px;
+	min-width: 50px;
+	min-height: 50px;
+	max-width: 300px;
+	max-height: 150px;
+	font-family: Arial;
 }
